@@ -62,7 +62,7 @@ public class Main extends Application {
         double deltaX = 3;
         double deltaY = 3;
 
-        //Button btn = new Button("btn");
+        Button btn = new Button("btn");
 
 
 
@@ -79,7 +79,7 @@ public class Main extends Application {
 
 
         final Pane root = new Pane();
-        root.getChildren().addAll( canvas, circle);
+        root.getChildren().addAll( canvas, circle, btn);
 
 
         //Handle the Key Codes
